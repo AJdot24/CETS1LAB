@@ -1,0 +1,8 @@
+s1=input("Enter colours to first set seperated by ',':")
+s2=input("Enter colours to second set seperated by ',':")
+s1=s1.split(',')
+s2=s2.split(',')
+s1=set(s1)
+s2=set(s2)
+s3=s1.difference(s2)
+print(s3)
